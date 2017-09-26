@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url(nasa-45067.jpg);
+
+}
+
+.content {
+    text-indent: 0%;
+    position: absolute;
+    left: 12%;
+    top: 10%;
+    background-color: #eee;
+    width: 75%;
+    box-shadow: 5px 5px 9px #333;
+    padding: 2%;
+    vertical-align: center;
+    border-radius: 25px;
+}
+
+#quiz {
+    display:none;
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: x-large;
+    padding: 0%;
+    line-height: 150%;
+}
+
+input[type="radio"] {
+    margin-right: 15px;
+
+}
+button {
+    border-radius: 12px;
+    position: relative;
+    float:right;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+#warning {
+    color: #800000;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
